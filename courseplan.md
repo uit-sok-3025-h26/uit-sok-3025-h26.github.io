@@ -11,7 +11,7 @@
 |  |      |  [Endogeneity: When OLS Stops Being Causal](https://uit-sok-3025-h26.github.io-/endogeneity-when-ols-stops-being-causal-part-1.html)                 |
 |  |      |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io-/refs/heads/main/endogeneity-when-ols-stops-being-causal-revised.R) |  
 |2 |02/09 | Continue on Chapter 10 |
-|  |      |  [Can We Trust the Instrument?](https://uit-sok-3025-h26.github.io/iv-2sls-in-practice-can-we-trust-the-instrument.html)         |
+|  |      |  [Can We Trust the Instrument?](https://uit-sok-3025-h26.github.io-/iv-2sls-in-practice-can-we-trust-the-instrument.html)         |
 |  |      |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io-/refs/heads/main/iv-2sls-in-practice-can-we-trust-the-instrument-revised.R) |    
 |  |       |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io-/refs/heads/main/chapter_10_coding_seminar_merged.R)           | 
 |3 |03/09 | Read Chapter 11 POE5 - Simultaneous Equations Models |
