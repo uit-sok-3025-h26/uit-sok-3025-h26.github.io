@@ -15,6 +15,8 @@
 |  |      |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/iv-2sls-in-practice-can-we-trust-the-instrument-revised.R) |    
 |  |       |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/chapter_10_coding_seminar_merged.R)           | 
 |3 |03/09 | Read Chapter 11 POE5 - Simultaneous Equations Models |
+|  |      | [Equilibrium, OLS failure, and identification](https://uit-sok-3025-h26.github.io/lecture-chapter-11-a.html)                                                 |
+|  |      |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/lecture-chap-11_a.R) |    
 |4 |07/09 | Continue on Chapter 11 |
 |5 |08/09 | Reading: Seemingly Unrelated Regressions(SUR) found in Canvas folder Files |
 |6 | 09/09| Continue on SUR |
