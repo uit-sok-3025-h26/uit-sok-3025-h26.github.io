@@ -19,6 +19,9 @@
 |  |      |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/lecture-chap-11_a.R) |    
 |  |      |  [Handout: Trygve Haavelmo's contribution to simultaneous equations](https://uit-sok-3025-h26.github.io/haavelmo-handout.pdf) |
 |4 |07/09 | Continue on Chapter 11 |
+|  |      | [Estimating Structural Equations](https://uit-sok-3025-h26.github.io/lecture-chapter-11-b.html)                                                 |
+|  |      |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/lecture-chap-11_b.R) |    
+|  |       |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/.R)           | 
 |5 |08/09 | Reading: Seemingly Unrelated Regressions(SUR) found in Canvas folder Files |
 |6 | 09/09| Continue on SUR |
 |7 |  21/09  |  Panel Data 1  |
