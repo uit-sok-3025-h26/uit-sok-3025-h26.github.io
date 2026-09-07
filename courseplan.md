@@ -25,7 +25,8 @@
 |5 |08/09 | Reading: Two sections on Seemingly Unrelated Regressions(SUR) found in Canvas folder Files |
 |  |      | [When Can Separate Equations Help Estimate Each Other?](https://uit-sok-3025-h26.github.io/SUR-lecture.html)                                                 |
 |  |      |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/SUR-lecture.R) |   
-|6 | 09/09| Continue on SUR |
+|6 | 09/09| Reading: Chapter 20 - System Estimations (3SLS) found in Canvas folder Files |
+|  |       |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/SUR-coding-seminar.R)           | 
 |7 |  21/09  |  Panel Data 1  |
 |8 |  23/09  |  Panel Data 2  |
 |9 |  24/09  |  Panel Data 3  |
