@@ -2606,7 +2606,7 @@ i_{2t}=\beta_{20}+\beta_{21}v_{2t}+\beta_{22}k_{2t}+e_{2t}.
 <div class="prediction">
 <p><strong>Record your prediction before seeing any estimates.</strong></p>
 <ol type="1">
-<li>Should (e_{1t}) and (e_{2t}) be positively or negatively correlated?</li>
+<li>Should (<span class="math inline">\(e_{1t}\)</span>) and (<span class="math inline">\(e_{2t}\)</span>) be positively or negatively correlated?</li>
 <li>Will joint estimation change the coefficients, the standard errors, or both?</li>
 <li>Which of the four slope estimates is most likely to change?</li>
 <li>Is correlation between the two firms’ investment sufficient to justify SUR?</li>
@@ -2740,14 +2740,14 @@ Contemporaneous correlation is not autocorrelation
 </section>
 <section id="gls-reveals-how-information-crosses-equations" class="level2">
 <h2 class="anchored" data-anchor-id="gls-reveals-how-information-crosses-equations">3.3 GLS reveals how information crosses equations</h2>
-<p>If <span class="math inline">\(boldsymbol\Omega\)</span> were known, the GLS estimator would be</p>
+<p>If <span class="math inline">\(\boldsymbol{\Omega}\)</span> were known, the GLS estimator would be</p>
 <p><span class="math display">\[
 \widehat{\boldsymbol\beta}_{GLS}
 =
 (\mathbf X&#39;\boldsymbol\Omega^{-1}\mathbf X)^{-1}
 \mathbf X&#39;\boldsymbol\Omega^{-1}\mathbf i.
 \]</span></p>
-<p>Let <span class="math inline">\(sigma^{ij}\)</span> denote element <span class="math inline">\((i,j)\)</span> of <span class="math inline">\(boldsymbol\Sigma^{-1}\)</span>. The GLS normal-equation matrix contains</p>
+<p>Let <span class="math inline">\(\sigma^{ij}\)</span> denote element <span class="math inline">\((i,j)\)</span> of <span class="math inline">\(\boldsymbol{\Sigma^{-1}}\)</span>. The GLS normal-equation matrix contains</p>
 <p><span class="math display">\[
 \mathbf X&#39;\boldsymbol\Omega^{-1}\mathbf X
 =
@@ -2968,8 +2968,8 @@ p=0.0011.
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><strong>Result.</strong> System OLS reproduces the two separate OLS coefficient vectors, apart from machine rounding.</p>
-<p><strong>Why the plausible approach fails.</strong> The block-diagonal structure of <span class="math inline">\(mathbf X\)</span> keeps the normal equations separated. OLS never uses <span class="math inline">\(widehat\sigma_{12}\)</span>.</p>
-<p><strong>Decision.</strong> To transfer information across equations, the estimator must use <span class="math inline">\(widehat{\boldsymbol\Omega}^{-1}\)</span>.</p>
+<p><strong>Why the plausible approach fails.</strong> The block-diagonal structure of <span class="math inline">\(\mathbf{X}\)</span> keeps the normal equations separated. OLS never uses <span class="math inline">\(\widehat{\sigma}\)</span>.</p>
+<p><strong>Decision.</strong> To transfer information across equations, the estimator must use <span class="math inline">\(\widehat{\boldsymbol\Omega}^{-1}\)</span>.</p>
 </div>
 </section>
 <section id="lab-step-4-estimate-feasible-sur" class="level2">
@@ -3085,7 +3085,7 @@ What SUR does not repair
 <p><strong>Question.</strong> Is a high residual correlation sufficient for SUR to change the estimates?</p>
 <p><strong>Prediction.</strong> A mechanically applied rule might say yes.</p>
 <p><strong>R action.</strong> For a mathematical demonstration—not an alternative economic specification—give both equations the same design matrix and compare separate OLS with SUR. The complete construction is in Lab Step 5 of <code>SUR-lecture.R</code>.</p>
-<p><strong>Result.</strong> With <span class="math inline">\(mathbf X_1=\mathbf X_2\)</span>, the maximum numerical difference between the SUR and OLS coefficients is below (10^{-8}).</p>
+<p><strong>Result.</strong> With <span class="math inline">\(\mathbf X_1=\mathbf X_2\)</span>, the maximum numerical difference between the SUR and OLS coefficients is below (<span class="math inline">\(10^{-8}\)</span>).</p>
 <p><strong>Interpretation.</strong> The second equation helps estimate the first only when its regressor space supplies information that is not already represented in the first equation.</p>
 <p><strong>Decision.</strong> The applied question has three parts:</p>
 <ol type="1">
@@ -3207,7 +3207,7 @@ Years with unexpectedly high wheat acreage also tend to have unexpectedly high b
 </section>
 <section id="a2.-calculate-the-lm-statistic" class="level3">
 <h3 class="anchored" data-anchor-id="a2.-calculate-the-lm-statistic">A2. Calculate the LM statistic</h3>
-<p>Test (H_0:_{12}=0).</p>
+<p>Test (<span class="math inline">\(H_0:\sigma_{12}=0\)</span>).</p>
 <details>
 <summary>
 Solution
@@ -3215,7 +3215,7 @@ Solution
 <p><span class="math display">\[
 \lambda=T\widehat\rho^2=40(0.55)^2=12.10.
 \]</span></p>
-There is one cross-equation covariance, so the reference distribution is <span class="math inline">\(chi^2(1)\)</span>. The null is rejected at conventional significance levels.
+There is one cross-equation covariance, so the reference distribution is <span class="math inline">\(\chi^2(1)\)</span>. The null is rejected at conventional significance levels.
 </details>
 </section>
 <section id="a3.-compare-the-wheat-price-evidence" class="level3">
@@ -3319,7 +3319,7 @@ Open instructor-only guidance
 <section id="places-where-discussion-may-expand" class="level2">
 <h2 class="anchored" data-anchor-id="places-where-discussion-may-expand">Places where discussion may expand</h2>
 <ul>
-<li>The block-matrix normal equations can take longer than planned. The essential feature is the appearance of off-diagonal <span class="math inline">\(mathbf X_1&#39;\mathbf X_2\)</span> terms.</li>
+<li>The block-matrix normal equations can take longer than planned. The essential feature is the appearance of off-diagonal <span class="math inline">\(\mathbf X_1&#39;\mathbf X_2\)</span> terms.</li>
 <li>The distinction between system exogeneity and residual correlation can lead naturally back to the earlier IV material.</li>
 <li>Students may ask why the SUR point estimates change. Use GLS as a weighted projection, rather than describing SUR as a standard-error correction.</li>
 </ul>
