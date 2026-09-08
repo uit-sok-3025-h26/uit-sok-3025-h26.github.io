@@ -17,14 +17,17 @@
 |3 |03/09 | Read Chapter 11 POE5 - Simultaneous Equations Models |
 |  |      | [Equilibrium, OLS failure, and identification](https://uit-sok-3025-h26.github.io/lecture-chapter-11-a.html)                                                 |
 |  |      |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/lecture-chap-11_a.R) |    
+|  |      |  [My scribbling notes](https://uit-sok-3025-h26.github.io/Notat_3_sep_2026.pdf) |
 |  |      |  [Handout: Trygve Haavelmo's contribution to simultaneous equations](https://uit-sok-3025-h26.github.io/haavelmo-handout.pdf) |
 |4 |07/09 | Continue on Chapter 11 |
 |  |      | [Estimating Structural Equations](https://uit-sok-3025-h26.github.io/lecture-chapter-11-b.html)                                                 |
 |  |      |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/lecture-chap-11_b.R) |    
+|  |      |  [My scribbling notes](https://uit-sok-3025-h26.github.io/Notat_7_sep_2026.pdf) |
 |  |       |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/coding-seminar-chapters-10-11.R)           | 
 |5 |08/09 | Reading: Two sections on Seemingly Unrelated Regressions(SUR) found in Canvas folder Files |
 |  |      | [When Can Separate Equations Help Estimate Each Other?](https://uit-sok-3025-h26.github.io/SUR-lecture.html)                                                 |
 |  |      |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/SUR-lecture.R) |   
+|  |      |  [My scribbling notes](https://uit-sok-3025-h26.github.io/Notat_8_sep_2026.pdf) |
 |6 | 09/09| Reading: Chapter 20 - System Estimations (3SLS) found in Canvas folder Files |
 |  |       |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/SUR-coding-seminar.R)           | 
 |7 |  21/09  |  Panel Data 1  |
