@@ -2810,7 +2810,7 @@ Two exact zero-gain cases
 </section>
 <section id="explore-the-efficiency-result" class="level2">
 <h2 class="anchored" data-anchor-id="explore-the-efficiency-result">3.5 Explore the efficiency result</h2>
-<p>For a simplified system with one standardized regressor in each equation, equal error variances, error correlation <span class="math inline">\(rho_e\)</span>, and regressor correlation <span class="math inline">\(r_x\)</span>, the exact relative variance is</p>
+<p>For a simplified system with one standardized regressor in each equation, equal error variances, error correlation <span class="math inline">\(\rho_e\)</span>, and regressor correlation <span class="math inline">\(r_x\)</span>, the exact relative variance is</p>
 <p><span class="math display">\[
 R(\rho_e,r_x)
 =
@@ -2968,7 +2968,7 @@ p=0.0011.
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><strong>Result.</strong> System OLS reproduces the two separate OLS coefficient vectors, apart from machine rounding.</p>
-<p><strong>Why the plausible approach fails.</strong> The block-diagonal structure of <span class="math inline">\(\mathbf{X}\)</span> keeps the normal equations separated. OLS never uses <span class="math inline">\(\widehat{\sigma}\)</span>.</p>
+<p><strong>Why the plausible approach fails.</strong> The block-diagonal structure of <span class="math inline">\(\mathbf{X}\)</span> keeps the normal equations separated. OLS never uses <span class="math inline">\(\hat{\sigma}_{12}\)</span>.</p>
 <p><strong>Decision.</strong> To transfer information across equations, the estimator must use <span class="math inline">\(\widehat{\boldsymbol\Omega}^{-1}\)</span>.</p>
 </div>
 </section>
