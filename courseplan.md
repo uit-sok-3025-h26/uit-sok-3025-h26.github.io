@@ -31,6 +31,7 @@
 |6 | 09/09| Reading: Chapter 20 - System Estimations (3SLS) found in Canvas folder Files |
 |  |      | [Three-stage least squares: bringing 2SLS and SUR together](https://uit-sok-3025-h26.github.io/3SLS_lecture.html)                                                 |
 |  |       |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/SUR-coding-seminar.R)           | 
+|  |       | [How do we calculate a 95% CI on the elasticities in truffle demand and supply](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/chapter11_partB8_delta_method.R)
 |7 |  21/09  |  Panel Data 1  |
 |8 |  23/09  |  Panel Data 2  |
 |9 |  24/09  |  Panel Data 3  |
