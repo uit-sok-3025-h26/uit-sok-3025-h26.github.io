@@ -31,8 +31,13 @@
 |6 | 09/09| Reading: Chapter 20 - System Estimations (3SLS) found in Canvas folder Files |
 |  |      | [Three-stage least squares: bringing 2SLS and SUR together](https://uit-sok-3025-h26.github.io/3SLS_lecture.html)                                                 |
 |  |       |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/SUR-coding-seminar.R)           | 
-|  |       | [How do we calculate a 95% CI on the elasticities in truffle demand and supply](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/chapter11_partB8_delta_method.R)
-|7 |  21/09  |  Panel Data 1  |
+|  |       | [How do we calculate a 95% CI on the elasticities in truffle demand and supply](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/chapter11_partB8_delta_method.R)  |
+|  |      |  [My scribbling notes](https://uit-sok-3025-h26.github.io/Notat_9_sep_2026.pdf) |
+|7 |  21/09  |  Read Chapter 15 POE5 - Panel Data Models  |
+|  |         |  Read Comparing Basic Panel Data Estimators: Version 2.1 in Canvas folder Files. [R code from handout](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/extracted_code_V2.1.R) |
+|  |         |  Read Wooldridge Introductory Econometrics: A Modern Approach Chapter 13-14 in Canvas folder Files   |
+|  |         |  [Panel Data Models: panel_data_01 · Comparing households with themselves](https://uit-sok-3025-h26.github.io/panel_data_01.html)                 |
+|  |         |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/panel_data_01.R) |   
 |8 |  23/09  |  Panel Data 2  |
 |9 |  24/09  |  Panel Data 3  |
 |10|  05/10  |  Discrete Models 1  |
