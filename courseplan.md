@@ -38,8 +38,11 @@
 |  |         |  Read Wooldridge Introductory Econometrics: A Modern Approach Chapter 13-14 in Canvas folder Files   |
 |  |         |  [Panel Data Models: panel_data_01 · Comparing households with themselves](https://uit-sok-3025-h26.github.io/panel_data_01.html)                 |
 |  |         |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/panel_data_01.R) |   
-|8 |  23/09  |  Panel Data 2  |
-|9 |  24/09  |  Panel Data 3  |
+|8 |  23/09  |  Continue readings on Panel Data   |
+|  |         |  [Random Effects and Model Choice: panel_data_02 · Which variation can we trust?](https://uit-sok-3025-h26.github.io/panel_data_02.html)                 |
+|  |         |  [What happens to the errors under fixed and random effects?](https://uit-sok-3025-h26.github.io/panel_data_FE_RE_errors.html)                 |
+|  |         |  [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/panel_data_02.R) |   
+|9 |  24/09  |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/panel_data_coding_seminar.R)           | 
 |10|  05/10  |  Discrete Models 1  |
 |11|  06/10  |  Discrete Models 2  |
 |12|  08/10  |  Discrete Models 3  |
