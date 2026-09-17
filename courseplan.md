@@ -35,7 +35,7 @@
 |  |      |  [My scribbling notes](https://uit-sok-3025-h26.github.io/Notat_9_sep_2026.pdf) |
 |7 |  21/09  |  Read Chapter 15 POE5 - Panel Data Models  |
 |  |         |  Read Comparing Basic Panel Data Estimators: Version 2.1 in Canvas folder Files. [R code from handout](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/extracted_code_V2.1.R) |
-|  |         |  Read Wooldridge Introductory Econometrics: A Modern Approach Chapter 13-14 in Canvas folder Files   |
+|  |         |  Read Wooldridge Introductory Econometrics: A Modern Approach. Chapter 13-14 in Canvas folder Files   |
 |  |         |  [Panel Data Models: panel_data_01 · Comparing households with themselves](https://uit-sok-3025-h26.github.io/panel_data_01.html)                 |
 |  |         |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/panel_data_01.R) |   
 |8 |  23/09  |  Continue readings on Panel Data   |
