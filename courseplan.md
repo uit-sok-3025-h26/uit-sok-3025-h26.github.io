@@ -41,6 +41,7 @@
 |8 |  23/09  |  Continue readings on Panel Data   |
 |  |         |  [Random Effects and Model Choice: panel_data_02 · Which variation can we trust?](https://uit-sok-3025-h26.github.io/panel_data_02.html)                 |
 |  |         |  [What happens to the errors under fixed and random effects?](https://uit-sok-3025-h26.github.io/panel_data_FE_RE_errors.html)                 |
+|  |      |  [A Geometric View of the Hausman Test](https://uit-sok-3025-h26.github.io/hausman_geometry_note.pdf) |
 |  |         |  [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/panel_data_02.R) |   
 |9 |  24/09  |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/panel_data_coding_seminar.R)           | 
 |10|  05/10  |  Discrete Models 1  |
