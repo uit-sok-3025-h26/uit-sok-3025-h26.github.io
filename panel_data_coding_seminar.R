@@ -5,7 +5,7 @@
 #'
 #' This script is a standalone resource. Run it from top to bottom.
 #' The main reference is Principles of Econometrics, 5th ed. (POE5), Chapter 15.
-#' Some examples come from POE4 Chapter 15, from Wooldridge's
+#' Some examples come from POE5 Chapter 15, from Wooldridge's
 #' Introductory Econometrics (Chapter 13), and from Heiss' "Using R for
 #' Introductory Econometrics" (URFIE).
 #'
@@ -477,7 +477,7 @@ phtest(mod15_8FE, mod15_9RE)
 
 # -----------------------------------------------------------------------------
 #' ## A pooled wage model
-#' Note: This model is not considered in the POE5 text (see POE4 Chapter 15).
+#' Note: This model is not considered in the POE5 text (see POE5 Chapter 15).
 #' Coefficients are partial associations under the strong assumption of no omitted
 #' individual heterogeneity. Always use at least cluster-robust SEs at the id level.
 wage.pooled <- plm(lwage ~ educ + exper + I(exper^2) + tenure + I(tenure^2) + black + south + union,
@@ -503,7 +503,7 @@ cbind(pooled.mod$estimate, pooled.mod.ols$estimate)
 all.equal(pooled.mod$estimate, pooled.mod.ols$estimate)
 
 # -----------------------------------------------------------------------------
-#' ## The fixed effects model: LSDV with a small N (POE4)
+#' ## The fixed effects model: LSDV with a small N (POE5)
 #' With only N=10 women we can look at all the dummy variable coefficients.
 nls10 <- pdata.frame(nls_panel[nls_panel$id %in% 1:10, ], index = c("id", "year"))
 pdim(nls10)
@@ -513,13 +513,13 @@ wage.fixed.10.ols <- lm(lwage ~ exper + I(exper^2) + tenure + I(tenure^2) + unio
                         data = nls10)
 kable(tidy(wage.fixed.10.ols), digits = 4)
 
-#' Alternative restricted model, with only one intercept, POE4 Table 15.4
+#' Alternative restricted model, with only one intercept, POE5 Table 15.4
 wage.fixed.pooled.10 <- plm(lwage ~ exper + I(exper^2) + tenure + I(tenure^2) + union,
                             data = nls10, model = "pooling")
 kable(tidy(wage.fixed.pooled.10), digits = 4)
 
 #' It is not necessary to use the OLS dummy variable approach,
-#' use the option model = "within" in plm(). POE4 Table 15.6
+#' use the option model = "within" in plm(). POE5 Table 15.6
 wage.fixed.10 <- plm(lwage ~ exper + I(exper^2) + tenure + I(tenure^2) + union,
                      data = nls10, model = "within")
 kable(tidy(wage.fixed.10), digits = 4)
@@ -527,7 +527,7 @@ kable(tidy(wage.fixed.10), digits = 4)
 #' Recover the 10 intercepts; compare with the factor(id) coefficients above
 fixef(wage.fixed.10, type = "level")
 
-#' Test of poolability (POE4 p. 546)
+#' Test of poolability (POE5 p. 546)
 pFtest(wage.fixed.10, wage.fixed.pooled.10)
 
 # -----------------------------------------------------------------------------
@@ -555,7 +555,7 @@ pFtest(wage.within, wage.fixed.pooled)
 
 # -----------------------------------------------------------------------------
 #' ## The random effects model
-#' Breusch-Pagan LM test for random effects (POE4 p. 554).
+#' Breusch-Pagan LM test for random effects (POE5 p. 554).
 #' H0: no individual effects (the variance of u_i is zero), i.e., pooled OLS is fine.
 plmtest(wage.pooled, effect = "individual", type = "bp")
 #' Rejecting H0 means pooled OLS is inappropriate; use FE or RE.
@@ -675,13 +675,13 @@ coef(wage.HT)["educ"]
 
 
 # =============================================================================
-#' # Part 12. Sets of regression equations (SUR), POE4 Chapter 15
+#' # Part 12. Sets of regression equations (SUR), POE5 Chapter 15
 # =============================================================================
 #' When T is large relative to N, we can allow every individual to have its own
 #' intercept AND its own slopes, i.e., estimate one equation per individual.
-#' Investment data for General Electric and Westinghouse (grunfeld2 in POE4).
+#' Investment data for General Electric and Westinghouse (grunfeld2 in POE5).
 #' We use the Grunfeld data from the AER package, keeping the same two firms.
-#' The numbers may differ slightly from the POE4 textbook data.
+#' The numbers may differ slightly from the POE5 textbook data.
 data("Grunfeld", package = "AER")
 grunfeld2 <- subset(Grunfeld, firm %in% c("General Electric", "Westinghouse"))
 grunfeld2$firm <- factor(grunfeld2$firm, levels = c("General Electric", "Westinghouse"),
@@ -738,7 +738,7 @@ summary(grunf.SUR.pooled)
 # =============================================================================
 
 # -----------------------------------------------------------------------------
-#' ## POE5 Exercise 15.18 (POE4 Exercise 15.6): Mexican sex worker data
+#' ## POE5 Exercise 15.18 (POE5 Exercise 15.6): Mexican sex worker data
 #' Data definition file
 # browseURL("http://www.principlesofeconometrics.com/poe5/data/def/mexican.def")
 load(url("http://www.principlesofeconometrics.com/poe5/data/rdata/mexican.rdata"))
@@ -893,7 +893,7 @@ round(100*(exp(coef(lnprice.fixed)) - 1), 1) - round(100*(exp(coef(lnprice.rando
 round(100*(exp(coef(lnprice.random)[c("nocondom", "attractive", "school")]) - 1), 1)
 round(100*(exp(sum(coef(lnprice.random)[c("nocondom", "attractive", "school")])) - 1), 1)
 
-#' Hausman test (POE4 section 15.5.3), all common coefficients jointly
+#' Hausman test (POE5 section 15.5.3), all common coefficients jointly
 phtest(lnprice.fixed, lnprice.random)
 
 #' Hausman test on each coefficient separately
