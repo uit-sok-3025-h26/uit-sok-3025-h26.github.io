@@ -47,9 +47,9 @@
 |  |      |  [My scribbling notes](https://uit-sok-3025-h26.github.io/Notat_23_sep_2026.pdf) |
 |9 |  24/09  |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/panel_data_coding_seminar.R)           | 
 |10|  05/10  |  Read Chapter 16 POE5 - Qualitative and Limited Dependent Variable Models |
-|  |      | [Binary choices: interpreting probit and logit](https://uit-sok-3025-h26.github.io/3SLS_lecture.html)                                                 |
-|  |         |   [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/panel_data_01.R) |   
-|11|  06/10  |  Discrete Models 2  |
+|  |         | [Binary choices: interpreting probit and logit](https://uit-sok-3025-h26.github.io/lecture_16_1.html)                                                 |
+|  |         | [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/lecture_16_1.R) |   
+|11|  06/10  |  Continue reading Chapter 16 |
 |12|  08/10  |  3  |
 |13|  19/10  |  Course Paper Work 1 (Dejene)  |
 |14|  21/10  |  Course Paper Work 2 (Dejene)  |
