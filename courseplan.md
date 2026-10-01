@@ -50,7 +50,9 @@
 |  |         | [Binary choices: interpreting probit and logit](https://uit-sok-3025-h26.github.io/lecture_16_1.html)                                                 |
 |  |         | [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/lecture_16_1.R) |   
 |11|  06/10  |  Continue reading Chapter 16 |
-|12|  08/10  |  3  |
+|  |         | [Beyond binary choice: multinomial, conditional, and ordered models](https://uit-sok-3025-h26.github.io/lecture_16_2.html)                                                 |
+|  |         | [R-file](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/lecture_16_2.R) | 
+|12|  08/10  |  [R Seminar File](https://raw.githubusercontent.com/uit-sok-3025-h26/uit-sok-3025-h26.github.io/refs/heads/main/chap16_discrete_choice_lab.R)          |
 |13|  19/10  |  Course Paper Work 1 (Dejene)  |
 |14|  21/10  |  Course Paper Work 2 (Dejene)  |
 | Deadline|  02/12  |  Submit Term Paper  |
